@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import './screens/home/home_screen.dart';
+import './screens/contact/contact_screen.dart';
 
 import './app_controller.dart';
 
@@ -18,7 +19,7 @@ class AppWidget extends StatelessWidget {
             ),
             debugShowCheckedModeBanner: false,
             title: 'Contact List',
-            home: HomeScreen(),
+            home: ContactScreen(),
           );
         });
   }
